@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+<!-- Array of questions -->
+<string-array name="questions">
+    <item>What is the capital of France?</item>
+    <item>Who is the current president of the United States?</item>
+    <item>What is the largest planet in our solar system?</item>
+    <!-- Add more questions here -->
+</string-array>
+
+<!-- Array of options for each question -->
+<string-array name="options_0"> <!-- For question 0 -->
+    <item>Paris</item>
+    <item>London</item>
+    <item>Berlin</item>
+    <item>Madrid</item>
+</string-array>
+
+<string-array name="options_1"> <!-- For question 1 -->
+    <item>Joe Biden</item>
+    <item>Donald Trump</item>
+    <item>Barack Obama</item>
+    <item>George W. Bush</item>
+</string-array>
+
+<string-array name="options_2"> <!-- For question 2 -->
+    <item>Jupiter</item>
+    <item>Saturn</item>
+    <item>Earth</item>
+    <item>Mars</item>
+</string-array>
+
+<!-- Add more options for other questions in the same way -->
+</resources>

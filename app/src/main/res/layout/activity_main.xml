@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@android:color/white">
+
+    <!-- Display the score at the top -->
+    <TextView
+        android:id="@+id/score_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Display the remaining time -->
+    <TextView
+        android:id="@+id/timer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Left: 10:00"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Display the current question -->
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:text="Question"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- RadioGroup for multiple choice options -->
+    <RadioGroup
+        android:id="@+id/options_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="24dp">
+
+        <RadioButton
+            android:id="@+id/option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 1"/>
+
+        <RadioButton
+            android:id="@+id/option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 2"/>
+
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 3"/>
+
+        <RadioButton
+            android:id="@+id/option4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 4"/>
+    </RadioGroup>
+
+
+
+    <!-- Button to move to the next question -->
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Question"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Button to move to the previous question -->
+    <Button
+        android:id="@+id/prev_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous Question"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Button to show the correct answer -->
+    <Button
+        android:id="@+id/show_answer_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Answer"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Button to end the quiz -->
+    <Button
+        android:id="@+id/end_exam_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Exam"
+        android:layout_marginBottom="8dp"/>
+</LinearLayout>
